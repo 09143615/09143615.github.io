@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>首页-图片</title>
+	
+    <style type="text/css">
+<!--
+body {
+	background-image: url(sanwenbkg.png);
+}
+#container {
+	text-align: center;
+	clear: both;
+	width: 760px;
+	margin-top: 220px;
+	margin-left: 70px;
+	height: 650px;
+}
+table {
+}
+a {
+	text-decoration: none;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#lanmu {
+	padding-left: 45px;
+	height: 50px;
+	width:900px;
+	margin-top: 300;
+	margin-right: auto;
+	margin-left: 0px;
+	width:900px;
+	background-image: url(biaotilan.png);
+	margin-bottom: 20px;
+}
+div ul li{
+	list-style:none;
+	margin-top:20px;
+	float:left;
+	text-align:center;
+	height:30px;
+	line-height:24px;
+	border:none;
+	width:140px;
+	height:30px;
+	font-family: "楷体";
+	font-size: 24px;
+	font-weight: bolder;
+	color: #FFFFFF;
+	clip: rect(auto,auto,auto,auto);
+}
+div ul li a{
+	text-decoration:none;
+}
+a:hover{
+	color:#99CCCC;
+}
+-->
+    </style>
+</head>
+
+<body>
+
+	<div id="container">
+		<div id="lanmu">
+		<ul id="lanmu1">
+			<li><a href="index.html"><font color="#FFFFFF">首页</font></a></li>
+			<li><a href="music.html"><font color="#FFFFFF">音乐</font></a></li>
+			<li><a href="shige.html"><font color="#FFFFFF">诗歌</font></a></li>
+			<li><a href="sanwen.html"><font color="#FFFFFF">散文</font></a></li>
+			<li><a href="pictures.html"><font color="#FFFFFF">图片</font></a></li>
+		</ul>
+    </div>
+	
+<script language="javascript" src="jquery.js"></script>
+<script language="javascript" >
+var da=[];
+
+da.push({src:"1.jpg",name:"第一张",link:"1"});
+da.push({src:"2.jpg",name:"第二张",link:"2"});
+da.push({src:"3.jpg",name:"第三张",link:"3"});
+da.push({src:"4.jpg",name:"第四张",link:"4"});
+da.push({src:"5.jpg",name:"第五张",link:"5"});
+
+var c={
+	 bg:"#333",//右下数字背景颜色
+	 color:"#FFF",//右下数字颜色
+	 cbg:"#FFF",//右下当前数字背景颜色
+	 ccolor:"#333",//右下当前数字颜色
+	 bc:"#ccc",//边框颜色
+	 step:6000 //步长
+	}
+new IMGS("TopI",700,550,da,c);
+//new IMGS("id号随便写不要和页面的id重复就可以",宽度,高度,数据[,设置]);
+</script>
+
+<div id="bottom">
+	<table cellspacing="8" align="center">
+		<tr><td><a href="#"><font color="#FF6666" size="+2" face="楷体"><strong>&nbsp;更多美图>></strong></font></a></td>
+		</tr>
+		<tr>
+			<td><a href="#"><img src="sanwen11.jpg" width="150" height="150" /></a></td>
+			<td><a href="#"><img src="sanwen12.jpg" width="150" height="150" /></a></td>
+			<td><a href="#"><img src="sanwen13.jpg" width="150" height="150" /></a></td>
+			<td><a href="#"><img src="sanwen14.jpg" width="150" height="150" /></a></td>
+			<td><a href="#"><img src="sanwen15.jpg" width="150" height="150" /></a></td>
+			<td><a href="#"><img src="sanwen16.jpg" width="150" height="150" /></a></td>
+			
+		</tr>
+		<hr width="700" color="#FFCCCC" />
+		<tr align="center">
+			<td><a href="#"><font color="#000000" size="+1" face="楷体"><strong>网友自创</strong></font></a></td>
+			<td><a href="#"><font color="#000000" size="+1" face="楷体"><strong>最美汉服</strong></font></a></td>
+			<td><a href="#"><font color="#000000" size="+1" face="楷体"><strong>中国水墨</strong></font></a></td>
+			<td><a href="#"><font color="#000000" size="+1" face="楷体"><strong>古装剧照</strong></font></a></td>
+			<td><a href="#"><font color="#000000" size="+1" face="楷体"><strong>创意制作</strong></font></a></td>
+			<td><a href="#"><font color="#000000" size="+1" face="楷体"><strong>经典手绘</strong></font></a></td>
+		</tr>
+	</table>
+			
+        <div style="width:760px;height:30px;margin-top:10px;">
+	<center>&copy;ST
+</center>
+</div>
+</body>
+</html>
