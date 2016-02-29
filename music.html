@@ -7,19 +7,28 @@
 <!--
 body{
 	background-color: #D3F8F4;
-	background-image: url(bkg0.jpg);
+	background-image: url(sanwenbkg.png);
+}
+#main {
+	height: 1100px;
+	width: 500px;
+	margin-top: 10px;
+	margin-left: 200px;
+	background-color: #FFFFFF;
 }
 #container {
-	height: 650px;
-	width: 1000px;
-	margin-top: 10px;
-	margin-left: 120px;
+	height: 1000px;
+	width: 800px;
+	margin-top: 20px;
+	margin-left: 150px;
 	border: thin none #AD9678;
+	float: left;
 }
 #music {
 	height: 500px;
 	width: 380px;
 	border: medium none #FFFF99;
+	margin-left: 90px;
 }
 a {
 	font-family: "楷体";
@@ -32,7 +41,8 @@ a {
 	height: 500px;
 	width: 450px;
 	margin-top: 20px;
-	margin-left: 40px;
+	margin-left: 50px;
+	float: left;
 }
 #left {
 	height: 550px;
@@ -52,13 +62,13 @@ a {
 	background-image: url(hengtiao.png);
 	height: 86px;
 	width: 951px;
-	margin-top: 5px;
+	margin-top: 20px;
 	margin-left: 20px;
 }
 #musicbanner {
 	height: 59px;
 	width: 1000px;
-	margin-left: 120px;
+	margin-left: 20px;
 	background-image: url(biaotilan.png);
 	margin-top: 250px;
 }
@@ -81,7 +91,7 @@ div ul li a{
 </head>
 
 <body>
-	
+	<div id="container">
 		<div id="musicbanner">
 			<ul id="lanmu1">
 			<li><a href="index.html"><font face="楷体" size="5" color="white"><strong>首页</strong></font></a></li>
@@ -91,9 +101,9 @@ div ul li a{
 			<li><a href="pictures.html"><font  face="楷体" size="5" color="white"><strong>图片</strong></font></a></li>
 		</ul>
 		</div>
-	<div id="container">
-		<div id="left">
-			<center style="margin-top:20px;"><font color="#654847" size="+2" face="楷体"><strong>歌曲试听列表</strong></font></center>
+	
+		<div id="main">
+		<center style="margin-top:20px;"><font color="#654847" size="+2" face="楷体"><strong>歌曲试听列表</strong></font></center>
 			<div id="music">
 				<p style="margin-top:15px;">&nbsp;&nbsp;&nbsp;&nbsp;许嵩、黄龄 - 惊鸿一面  更多<a href="#">许嵩 </a>歌曲>></p>
 				<p>  
@@ -119,8 +129,8 @@ div ul li a{
 					 &nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><font color="#654847" size="+1" face="楷体">更多古风歌曲，尽在古风-音乐频道>></font></a>
 				</p>
 		  </div>
-		</div>
-		<div id="right">
+		
+		
 			<center style="margin-top:30px;"><font color="#654847" size="+2" face="楷体"><strong>视频欣赏</strong></font></center>
 			<div id="yinpin">
 				
@@ -128,9 +138,9 @@ div ul li a{
 				<p>
 					 &nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><font color="#654847" size="+1" face="楷体">更多古风视频，尽在古风-音乐频道>></font></a>
 				</p>
+			
 			</div>
-		
-		</div>
+	</div>
 		<div id="bottom">
 		
 		</div>
